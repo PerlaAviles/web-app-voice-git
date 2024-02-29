@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnIdentificar = document.getElementById('btnIdentificar');
     const inputOrden = document.getElementById('orden');
     const resultado = document.getElementById('resultado');
+    // Agrega un event listener al botón de identificar ordenn
+    //comentario
 
-    // Agrega un event listener al botón de identificar orden
     btnIdentificar.addEventListener('click', function() {
         // Captura la orden ingresada por voz
         const orden = inputOrden.value.trim();
